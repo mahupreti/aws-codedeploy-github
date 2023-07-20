@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu
+  - source: dist
+    destination: /home/ubuntu/final
 hooks:
   BeforeInstall:
     - location: scripts/before_install
